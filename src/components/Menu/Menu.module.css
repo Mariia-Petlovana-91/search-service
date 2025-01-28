@@ -1,0 +1,43 @@
+.container {
+  padding: 20px;
+  border: solid 1px gold;
+  background-color: rgba(
+    255,
+    217,
+    0,
+    0.05
+  );
+}
+.menu {
+  padding: 20px;
+  background-color: gold;
+}
+.menu__btn {
+  padding: 10px;
+  background: transparent;
+  font-size: 20px;
+  color: gold;
+  background-color: white;
+  min-width: 220px;
+}
+.menu__btn:hover,
+.menu__btn:focus {
+  background-color: rgba(
+    107,
+    105,
+    93,
+    0.068
+  );
+  color: white;
+}
+.menu__choise {
+  padding: 20px;
+  background-color: gold;
+  border: 1px solid white;
+}
+
+.menu__text {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
