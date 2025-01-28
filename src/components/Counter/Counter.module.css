@@ -1,0 +1,41 @@
+.counter {
+  padding: 20px;
+}
+.counter__title {
+  color: green;
+  text-align: center;
+}
+.counter__value {
+  color: blue;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+}
+.counter__container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.counter__btn {
+  margin-right: 20px;
+  padding: 10px;
+  color: green;
+  font-size: 20px;
+  border: 1px solid
+    rebeccapurple;
+  background-color: transparent;
+}
+
+.counter__btn:last-child {
+  margin-right: 0px;
+}
+
+.counter__btn:hover,
+.counter__btn:focus {
+  background-color: rgba(
+    128,
+    128,
+    128,
+    0.566
+  );
+}
